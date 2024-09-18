@@ -4,43 +4,43 @@ public class Aula6B {
     public static void main (String[] args) {
         String [] resposta = {
 
-
+            // Amazonas
             "Manaus",
             "Tabatinga",
 
-
+            // Alagoas
             "Maceió",
             "São Miguel dos Milagres",
 
-
+            // Ceará
             "Fortaleza",
             "Jericoacoara",
 
-
+            // Tocantins
             "Palmas",
             "Araguaína",
 
-
+            // Minas Gerais
             "Belo Horizonte",
             "Ouro Preto",
 
-
+            // Santa Catarina
             "Balneário Camboriú",
             "Florianópolis",
 
-
+            // Pernambuco
             "Recife",
             "Olinda",
 
-
+            // Goiás
             "Goiânia",
             "Caldas Novas",
 
-
+            // Rio de Janeiro
             "Rio de Janeiro",
             "Niteroí", 
 
-
+            // São Paulo
             "São Paulo",
             "Tatuí"};
 
@@ -98,20 +98,22 @@ public class Aula6B {
             case "São Paulo":
                 System.out.println(resposta[18]+" ou "+ resposta[19]);
                 break;
-                
-
             default:
                 System.out.println("Estado inválido");
-                
-                
-            return;
-               
-        leitura.close();
+                break; 
+        }
 
+         leitura.close();
+       
             }
+        
+        
+       
          
           
 
+
         }
+
 }
 
