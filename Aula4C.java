@@ -44,3 +44,4 @@ public class Aula4C {
         teste = resultado >= 5;
         System.out.println(teste);
     }   
+}

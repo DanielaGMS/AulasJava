@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Aula6.1 {
+public class Aula6.1.2 {
     public static void main (String[] args) {
         String [] resposta = {
 
