@@ -1,11 +1,13 @@
 import java.util.Scanner;
 
-public class Aula6.1.2 {
+public class Aula6B { 
     public static void main (String[] args) {
         String [] resposta = {
 
+
             "Manaus",
             "Tabatinga",
+
 
             "Maceió",
             "São Miguel dos Milagres",
@@ -34,6 +36,7 @@ public class Aula6.1.2 {
             "Goiânia",
             "Caldas Novas",
 
+
             "Rio de Janeiro",
             "Niteroí", 
 
@@ -48,57 +51,67 @@ public class Aula6.1.2 {
 
             switch(leitura.nextLine()) {
             case "Amazonas":
-                System.out.println(resposta[1]+" ou "+ resposta[2]);
+                System.out.println(resposta[0]+" ou "+ resposta[1]);
                 break;
        
 
             case "Alagoas":
-                System.out.println(resposta[3]+" ou "+ resposta[4]);
+                System.out.println(resposta[2]+" ou "+ resposta[3]);
                 break;
 
 
             case "Ceará":
-                System.out.println(resposta[5]+" ou "+ resposta[6]);
+                System.out.println(resposta[4]+" ou "+ resposta[5]);
                 break;
 
+
             case "Tocantins":
-                System.out.println(resposta[7]+" ou "+ resposta[8]);
+                System.out.println(resposta[6]+" ou "+ resposta[7]);
                 break;
 
 
             case "Minas Gerais":
-                System.out.println(resposta[9]+" ou "+ resposta[10]);
+                System.out.println(resposta[8]+" ou "+ resposta[9]);
                 break;
 
 
             case "Santa Catarina":
-                System.out.println(resposta[11]+" ou "+ resposta[12]);
+                System.out.println(resposta[10]+" ou "+ resposta[11]);
                 break;
 
 
             case "Pernambuco":
-                System.out.println(resposta[13]+" ou "+ resposta[14]);
+                System.out.println(resposta[12]+" ou "+ resposta[13]);
                 break;
 
 
             case "Goiás":
-                System.out.println(resposta[15]+" ou "+ resposta[16]);
+                System.out.println(resposta[14]+" ou "+ resposta[15]);
                 break;
 
 
             case "Rio de Janeiro":
-                System.out.println(resposta[17]+" ou "+ resposta[18]);
+                System.out.println(resposta[16]+" ou "+ resposta[17]);
                 break;
             
 
             case "São Paulo":
-                System.out.println(resposta[19]+" ou "+ resposta[20]);
+                System.out.println(resposta[18]+" ou "+ resposta[19]);
                 break;
-            
+                
 
             default:
                 System.out.println("Estado inválido");
+                
+                
+            return;
+               
+        leitura.close();
+
             }
-    }
-    
+         
+          
+
+        }
 }
+
