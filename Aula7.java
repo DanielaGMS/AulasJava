@@ -21,6 +21,7 @@ public class Aula7{
         while (pontuacao > 0){
             numero = leitura.nextInt();
             
+            
             /* Condicional que indica a possibilidade se se o número do sorteio for maior que o número digitado 
             o programa deve imprimir na tela do usuário: Número digitado é menor que o número sorteado! */  
                 if (sorteio > numero){
