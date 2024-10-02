@@ -1,4 +1,6 @@
+public class rjava {
 
+    
  /* A prefeitura de uma cidade deseja fazer uma pesquisa entre seus habitantes. 
  Faça um algoritmo para coletar dados sobre o salário e número de filhos de cada habitante e após as leituras, escrever: 
  
@@ -19,8 +21,7 @@
 
  import java.util.Scanner;
 
- public class Repositorio1 {
- }
+
  public static void main(String[] args) {
 
 
@@ -114,6 +115,9 @@
 
 
 
- }
+ 
 
 
+
+    
+}
