@@ -16,6 +16,7 @@
 
  Obs.: O final das leituras dos dados se dará com a entrada de um “salário negativo”. */ 
 
+
  import java.util.Scanner;
 
  public class Repositorio1 {
@@ -23,139 +24,96 @@
  public static void main(String[] args) {
 
 
-    System.out.println("Prefeitura de Gentil! /n");
+    System.out.println("Prefeitura de Bonito! /n");
     Scanner leitura = new Scanner (System.in);
 
 
-    int media, numerodefilhos1, numerodefilhos2, numerodefilhos3, numerodefilhos4, numerodefilhos5,numerodefilhos6, numerodefilhos7, numerodefilhos8, numerodefilhos9, numerodefilhos10;
+    int mediaFilhos, filho1, filho2, filho3;
 
-    float salario1, salario2, salario3, salario4, salario5, salario6, salario7, salario8, salario9, salario10;
+    float somaSalario, percentualSalario, mediaSalario, salario1, salario2, salario3;
 
-    String habitante1, habitante2, habitante3, habitante4, habitante5, habitante6, habitante7, habitante8, habitante9, habitante10;
-
-    
-    System.out.println("Digite seu nome: /n");
-    habitante1 = leitura.nextLine(); 
-    System.out.println("Digite o número de filhos: /n");
-    numerodefilhos1 = leitura.nextInt(); 
-    System.out.println("Digite o salário /n");
-    salario1 = leitura.nextFloat(); 
+    String habitante;
+  
 
 
+    System.out.println(" Digite seu nome: ");
+    habitante = leitura.nextLine();
+    System.out.println(" Digite a quantidade de filhos que possui: /n");
+    filho1 = leitura.nextInt(); 
+    System.out.println(" Digite o salário /n");
+    salario1 = leitura.nextFloat();
 
-    System.out.println("Digite seu nome: /n");
-    habitante2 = leitura.nextLine(); 
-    System.out.println("Digite o número de filhos: /n");
-    numerodefilhos2 = leitura.nextInt(); 
-    System.out.println("Digite o salário /n");
+
+
+    System.out.println(" Digite seu nome: /n");
+    habitante = leitura.nextLine(); 
+    System.out.println(" Digite a quantidade de filhos que possui: /n");
+    filho2 =leitura.nextInt(); 
+    System.out.println(" Digite o salário /n");
     salario2 = leitura.nextFloat(); 
 
 
 
-    System.out.println("Digite seu nome: /n");
-    habitante3 = leitura.nextLine(); 
-    System.out.println("Digite o número de filhos: /n");
-    numerodefilhos3 = leitura.nextInt(); 
-    System.out.println("Digite o salário /n");
-    salario3 = leitura.nextFloat(); 
+    System.out.println(" Digite seu nome: /n");
+    habitante = leitura.nextLine(); 
+    System.out.println(" Digite a quantidade de filhos que possui: /n");
+    filho3 = leitura.nextInt(); 
+    System.out.println(" Digite o salário /n");
+    salario3= leitura.nextFloat(); 
 
+ 
+    somaSalario = salario1 + salario2 + salario3;
 
+    mediaSalario = somaSalario /3;
 
-    System.out.println("Digite seu nome: /n");
-    habitante4 = leitura.nextLine(); 
-    System.out.println("Digite o número de filhos: /n");
-    numerodefilhos4 = leitura.nextInt(); 
-    System.out.println("Digite o salário /n");
-    salario4 = leitura.nextFloat(); 
+    mediaFilhos = (filho1 + filho2 + filho3) /3;
 
-
-   
-    System.out.println("Digite seu nome: /n");
-    habitante5 = leitura.nextLine(); 
-    System.out.println("Digite o número de filhos: /n");
-    numerodefilhos5 = leitura.nextInt(); 
-    System.out.println("Digite o salário /n");
-    salario5 = leitura.nextFloat(); 
-
-
-
-    System.out.println("Digite seu nome: /n");
-    habitante6 = leitura.nextLine(); 
-    System.out.println("Digite o número de filhos: /n");
-    numerodefilhos6 = leitura.nextInt(); 
-    System.out.println("Digite o salário /n");
-    salario6 = leitura.nextFloat(); 
-
-
-
-    System.out.println("Digite seu nome: /n");
-    habitante7 = leitura.nextLine(); 
-    System.out.println("Digite o número de filhos: /n");
-    numerodefilhos7 = leitura.nextInt(); 
-    System.out.println("Digite o salário /n");
-    salario7 = leitura.nextFloat(); 
-
-
-
-    System.out.println("Digite seu nome: /n");
-    habitante8 = leitura.nextLine(); 
-    System.out.println("Digite o número de filhos: /n");
-    numerodefilhos8 = leitura.nextInt(); 
-    System.out.println("Digite o salário /n");
-    salario8 = leitura.nextFloat(); 
-
-
-
-    System.out.println("Digite seu nome: /n");
-    habitante9 = leitura.nextLine(); 
-    System.out.println("Digite o número de filhos: /n");
-    numerodefilhos9 = leitura.nextInt(); 
-    System.out.println("Digite o salário /n");
-    salario9 = leitura.nextFloat();  
-
-
-
-    System.out.println("Digite seu nome: /n");
-    habitante10 = leitura.nextLine(); 
-    System.out.println("Digite o número de filhos: /n");
-    numerodefilhos10 = leitura.nextInt(); 
-    System.out.println("Digite o salário /n");
-    salario10 = leitura.nextFloat();  
-
-
-     for (media = salario1 + salario2 + salario3 + salario4 + salario5 + salario6 + salario7 + salario8 + salario9 + salario10 / 10) {
-      media = leitura.nextInt();
-      System.out.println ("A média de salários é igual a: ", media);
-    }
-
-     
-      for 
-      System.out.println("Média de salário da população. /n");
-     }
-    
+    percentualSalario = (somaSalario / 3) * 100;
 
 
     
-      System.out.println("Média do número de filhos. /n");
-    }
+  if (salario1 > salario2) {
+    System.out.println(" Seu salário é o maior da cidade. Pague mais impostos! Comprando, o 1º salário inserido é o maior que o 2º. /n");
     
+  }
 
-
-     else if{
-
-      System.out.println("Maior salário dos habitantes. /n");
-
-     }
-
-    else
-    System.out.println("O salário impresso é menor que R$ 150,00 /n");
+  else if (salario2 > salario3) {
+    System.out.println(" Seu salário é o maior da cidade. Pague mais impostos! Comprando, o 2º salário inserido é o maior que o 3º./n");
     
+  }
+  else if (salario3 > salario1) {
+    System.out.println(" Seu salário é o maior da cidade. Pague mais impostos! Comprando, o 3º salário inserido é o maior que o 1º./n");
+    
+  }
+  else if (salario1 > salario3) {
+    System.out.println(" Seu salário é o maior da cidade. Pague mais impostos! Comprando, o 1º salário inserido é o maior que o 3º. /n");
+    
+  }
+  else if (salario3 > salario2) {
+    System.out.println(" Seu salário é o maior da cidade. Pague mais impostos! Comprando, o 3º salário inserido é o maior que o 2º. /n");
+
+  }
+  else {
+    System.out.println(" Seu salário é o menor da cidade. Pague mais impostos! /n");
+
+  }
+
+  
 
 
-    System.out.println("Salário negativo. /n");
+
+
+
+
+
+
+
+
+
+
+
+
 
  }
-
-
 
 
